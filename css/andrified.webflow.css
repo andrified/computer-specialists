@@ -190,11 +190,12 @@ p {
 }
 
 .section.hero {
+  position: static;
   padding-top: 108px;
   padding-bottom: 135px;
-  background-image: -webkit-linear-gradient(135deg, rgba(17, 201, 247, .59), rgba(69, 110, 196, .51) 49%, rgba(113, 32, 153, .45)), url('../images/dark-laptop.jpg');
-  background-image: linear-gradient(315deg, rgba(17, 201, 247, .59), rgba(69, 110, 196, .51) 49%, rgba(113, 32, 153, .45)), url('../images/dark-laptop.jpg');
-  background-position: 0% 0%, 50% 50%;
+  background-image: -webkit-linear-gradient(135deg, rgba(17, 201, 247, .59), rgba(69, 110, 196, .51) 49%, rgba(113, 32, 153, .45)), url('../images/computer-doctor.jpg');
+  background-image: linear-gradient(315deg, rgba(17, 201, 247, .59), rgba(69, 110, 196, .51) 49%, rgba(113, 32, 153, .45)), url('../images/computer-doctor.jpg');
+  background-position: 0px 0px, 50% 50%;
   background-size: auto, cover;
   background-repeat: repeat, no-repeat;
   background-attachment: scroll, fixed;
@@ -211,6 +212,7 @@ p {
 }
 
 .section.black {
+  position: static;
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
